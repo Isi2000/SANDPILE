@@ -1,0 +1,610 @@
+    1  exit
+    2  cd ISACCO/
+    3  ls
+    4  pip install matplotlib
+    5  emacs prova.py
+    6  code prova.py
+    7  code .
+    8  nano prova.py
+    9  python prova.py 
+   10  python3 prova.py 
+   11  nano prova.py
+   12  python3 prova.py 
+   13  nano prova.py
+   14  python3 prova.py 
+   15  nano prova.py
+   16  python3 prova.py 
+   17  ls
+   18  open prova.p
+   19  open prova.png 
+   20  ls
+   21  mkdir ISACCO
+   22  ls 
+   23  cd ISACCO
+   24  ls 
+   25  git clone git@github.com:Elisa-Fabbri/Stoch_Res.git
+   26  ls -al ~/.ssh
+   27  ssh-keygen -b 4096 -t rsa
+   28  cat /m/home/isaccof/.ssh/id_rsa.pub
+   29  ls 
+   30  git clone git@github.com:Elisa-Fabbri/Stoch_Res.git
+   31  ls
+   32  cd Stoch_Res/
+   33  ls 
+   34  code .
+   35  python simulation.py configuration.txt 
+   36  python3 simulation.py configuration.txt
+   37  python3 simulation.py configuration.txt 
+   38  python two_state_filter.py ./Euler_forcing/trajectories.pkl min
+   39  python3 two_state_filter.py ./Euler_forcing/trajectories.pkl min
+   40  python3 find_residence_time.py ./Euler_forcing/binarized_min.pkl 
+   41  python plot_res_time.py 
+   42  python3 plot_res_time.py 
+   43  nano plot_res_time.py 
+   44  pip update
+   45  pip upgrade matplotlib
+   46  nano plot_res_time.py 
+   47  python plot_res_time.py 
+   48  python3 plot_res_time.py 
+   49  nano plot_res_time.py 
+   50  ls
+   51  cd Euler_forcing/
+   52  ls
+   53  cd ..
+   54  git status
+   55  git add plot_res_time.py 
+   56  ls 
+   57  git commit -m 'residence_times'
+   58  pip list
+   59  pip list | grep matplotlib
+   60  git commit -m 'residence_times'
+   61  cd ISACCO
+   62  top
+   63  ls
+   64  cd ISACCO/
+   65  ls
+   66  rm prova.py
+   67  rm prova.png 
+   68  cd ISACCO/
+   69  ls 
+   70  cd Stoch_Res/
+   71  ls 
+   72  git status
+   73  ls 
+   74  cd Euler_forcing/
+   75  ls 
+   76  cp res_times.png 
+   77  cp res_times.png ../res_times.png
+   78  cd ..
+   79  ls 
+   80  git add res_times.png
+   81  git status
+   82  git commit -m 'immagine'
+   83  git config isacco@faglioni.it
+   84  git commit -m 'immagine'
+   85  git config elifabbri99@gmail.com
+   86  git config "isacco@faglioni.it"
+   87  git config "isaccof"
+   88  git config  user.email "isacco@faglioni.it"
+   89  git commit -m 'immagine'
+   90  git push
+   91  nano plot_res_time.py 
+   92  python3 plot_res_time.py 
+   93  mv Euler_forcing/res_times.png res_times.png 
+   94  git commit -m 'immagine'
+   95  git add res_times.png 
+   96  git commit -m 'immagine'
+   97  git push
+   98  cd Euler_forcing/
+   99  ls 
+  100  cp residence_times_min.pkl ../residence_times_min.pkl
+  101  cd ..
+  102  git add residence_times_min.pkl 
+  103  git commit -m 'dati'
+  104  git push
+  105  cd ..
+  106  cd ISACCO/
+  107  ls 
+  108  cd Stoch_Res/
+  109  code .
+  110  nano configuration.txt 
+  111  python simulation.py configuration.txt 
+  112  python3 simulation.py configuration.txt 
+  113  python3 two_state_filter.py ./Euler_forcing/trajectories.pkl 
+  114  python3 two_state_filter.py ./Euler_forcing/trajectories.pkl flex
+  115  top
+  116  cd ISACCO/
+  117  ls 
+  118  cd Stoch_Res/
+  119  ls 
+  120  python find_residence_time.py ./Euler_forcing/binarized_flex.pkl 
+  121  python3 find_residence_time.py ./Euler_forcing/binarized_flex.pkl 
+  122  nano plot_res_time.py 
+  123  python3 plot_res_time.py 
+  124  nano plot_res_time.py 
+  125  cp ./Euler_forcing/res_times.png res_times.png
+  126  git add res_times.png 
+  127  git status
+  128  git commit -m 'tempi di residenza'
+  129  git push
+  130  nano configuration.txt 
+  131  cd ISACCO/
+  132  cd Stoch_Res/
+  133  python3 two_state_filter.py ./Euler_forcing/trajectories.pkl min
+  134  python3 find_residence_time.py ./Euler_forcing/binarized_min.pkl 
+  135  nano plot_res_time.py 
+  136  python3 plot_res_time.py 
+  137  cp ./Euler_forcing/res_times.png res_times_min.png
+  138  git add res_times_min.png 
+  139  git commit -m 'immagine minimo'
+  140  git push
+  141  ls
+  142  cd Modelli/
+  143  ls
+  144  cd ..
+  145  git status
+  146  git clone git@github.com:Isi2000/NLP.git
+  147  cd NLP/
+  148  ls
+  149  code .
+  150  pip install torch
+  151  pip install Bio
+  152  conda install torch
+  153  conda lisrt
+  154  conda lista
+  155  conda list
+  156  conda activate myenv
+  157  wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+  158  bash Miniconda3-latest-Linux-x86_64.sh\
+  159  source ~/.bashrc
+  160  conda update conda
+  161  source ~/.bashrc
+  162  ls
+  163  chmod +x Miniconda3-latest-Linux-x86_64.sh
+  164  ./Miniconda3-latest-Linux-x86_64.sh
+  165  cd
+  166  ls
+  167  cd home
+  168  cd ..
+  169  ls
+  170  cd isaccof/
+  171  ls
+  172  la
+  173  It looks like the Miniconda installer is prompting you to confirm the installation location. You can either press `ENTER` to accept the default location or specify a different one.
+  174  ### Step-by-Step Response to Installer Prompt
+  175  1. **Confirm the Installation Location:**
+  176  2. **Specify a Different Location:**
+  177  ### After Installation Steps
+  178  Once you have confirmed the installation location and the installation completes, follow these steps:
+  179  1. **Initialize Conda:**
+  180  source ~/.bashrc
+  181  ls
+  182  conda --version
+  183  export PATH="/m/home/isaccof/miniconda3/bin:$PATH"
+  184  source ~/.bashrc
+  185  conda --version
+  186  conda install torch
+  187  conda update conda
+  188  conda create --name isaccodl python=3.8
+  189  conda activate myenv
+  190  conda init isaccodl
+  191  conda activate isaccodl
+  192  conda init
+  193  conda activate isaccodl
+  194  ### Summary of Commands After Installation
+  195  Once you confirm the installation and it completes, run these commands:
+  196  ```bash
+  197  # Initialize Conda
+  198  source ~/.bashrc
+  199  # Verify Conda installation
+  200  conda --version
+  201  # Update Conda
+  202  conda update conda
+  203  # Create a new Conda environment
+  204  conda create --name myenv python=3.8
+  205  # Activate the environment
+  206  conda activate myenv
+  207  # Install packages (examples)
+  208  conda install numpy
+  209  pip install requests
+  210  # Deactivate the environment
+  211  conda deactivate
+  212  ```
+  213  7. **Deactivate the Environment:**
+  214  6. **Install Packages:**
+  215  5. **Activate the Conda Environment:**
+  216  4. **Create a New Conda Environment:**
+  217  3. **Update Conda:**
+  218  2. **Verify the Installation:**
+  219  /bin/python3 /home/isaccof/.vscode/extensions/ms-python.python-2024.10.0-linux-x64/python_files/printEnvVariablesToFile.py /home/isaccof/.vscode/extensions/ms-python.python-2024.10.0-linux-x64/python_files/deactivate/bash/envVars.txt
+  220  ls
+  221  cd NLP/
+  222  ls
+  223  ./Miniconda3-latest-Linux-x86_64.sh 
+  224  cd
+  225  conda
+  226  conda activate base
+  227  conda install numpy
+  228  conda install torch
+  229  conda install pytorch
+  230  conda install Bio
+  231  conda install pandas
+  232  conda install matplotlib
+  233  conda --env
+  234  conda create --name myenv python=3.8
+  235  conda activate miniconda3/
+  236  cd NLP/
+  237  code .
+  238  conda install sklearn
+  239  pip install sklearn
+  240  conda install sklearn
+  241  conda install scikitlearn
+  242  conda install scikit-learn
+  243  conda install Bio
+  244  conda install biopython
+  245  conda install seaborn
+  246  nvcc --version
+  247  top
+  248  nvidia-smi
+  249  pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu117
+  250  code .
+  251  ls
+  252  /bin/python3 /home/isaccof/.vscode/extensions/ms-python.python-2024.10.0-linux-x64/python_files/printEnvVariablesToFile.py /home/isaccof/.vscode/extensions/ms-python.python-2024.10.0-linux-x64/python_files/deactivate/bash/envVars.txt
+  253  cd NLP/
+  254  nvidia --smi
+  255  nvidia -smu
+  256  nvidia -smi
+  257  nvidia 
+  258  nvidia-smi
+  259  code .
+  260  dpkg \-l | egrep -i cuda
+  261  hollama -run llama3
+  262  ollama list
+  263  pytorch --version
+  264  syste
+  265  cd ISACCO/
+  266  ls 
+  267  cd Stoch_Res/
+  268  ls 
+  269  python compute_autocorrelation.py ./Euler_forcing/binarized_min.pkl 
+  270  python3 compute_autocorrelation.py ./Euler_forcing/binarized_min.pkl 
+  271  cd Stoch_R
+  272  python3 compute_autocorrelation.py ./Euler_forcing/binarized_min.pkl 
+  273  python3 compute_autocorrelation.py ./Euler_forcing/binarized_min.pkl
+  274  top
+  275  ls
+  276  cd I
+  277  cd ISACCO/
+  278  ls
+  279  cd Stoch_Res/
+  280  ls
+  281  emacs configuration.txt 
+  282  code .
+  283  code configuration.txt 
+  284  nano configuration.txt 
+  285  nano co
+  286  nano configuration.txt 
+  287  python3 simulation.py configuration.txt &
+  288  top
+  289  cd ISACCO/
+  290  s
+  291  ls
+  292  cd Stoch_Res/
+  293  ls
+  294  python3 simulation.py configuration.txt &
+  295  top
+  296  ls
+  297  cd ISACCO/
+  298  ls 
+  299  cd Stoch_Res/
+  300  ls 
+  301  cd Euler_forcing/
+  302  ls 
+  303  cd ..
+  304  cd RK_forcing/
+  305  ls 
+  306  cd ..
+  307  python two_state_filter.py RK_forcing/trajectories.pkl min
+  308  python find_residence_time.py 
+  309  python find_residence_time.py configuration.txt 
+  310  python find_residence_time.py ./RK_forcing/binarized_min.pkl 
+  311  python plot_res_time.py 
+  312  cd RK_forcing/
+  313  ls
+  314  cd..
+  315  cd ..
+  316  mv ./RK_forcing/res_times.png residence_RK_min.png
+  317  git add residence_RK_min.png 
+  318  git commit -m 'simulazione'
+  319  git push
+  320  top
+  321  cd ISACCO/
+  322  cd Stoch_Res/
+  323  ls 
+  324  nano configuration.txt 
+  325  nano plot_res_time.py 
+  326  python compute_autocorrelation.py ./RK_forcing/binarized_min.pkl 
+  327  ls
+  328  hostname
+  329  pwd
+  330  cd ISACCO/
+  331  cd Stoch_Res/
+  332  top
+  333  cd RK_forcing/
+  334  ls 
+  335  cd ..
+  336  python3 compute_autocorrelation.py ./RK_forcing/binarized_min.pkl 
+  337  top
+  338  top -h
+  339  htop
+  340  top
+  341  condor_status
+  342  top
+  343  cd ISACCO/
+  344  cd Stoch_Res/
+  345  nano autocorrelation_fft.py 
+  346  top
+  347  cd ISACCO/
+  348  cd Stoch_Res/
+  349  python fft.py 
+  350  python fft.py ./RK_forcing/binarized_min.pkl 
+  351  nano autocorrelation_fft.py
+  352  python autocorrelation_fft.py ./RK_forcing/binarized_min.pkl 
+  353  nano autocorrelation_fft.py
+  354  rm autocorrelation_fft.py 
+  355  nano autocorrelation_fft.py
+  356  python autocorrelation_fft.py ./RK_forcing/binarized_min.pkl 
+  357  rm autocorrelation_fft.py 
+  358  nano autocorrelation_fft.py
+  359  python autocorrelation_fft.py ./RK_forcing/binarized_min.pkl 
+  360  nano fft
+  361  ls
+  362  nano fft.py
+  363  python fft.py ./RK_forcing/binarized_min.pkl 
+  364  nano configuration.txt 
+  365  python simulation.py configuration.txt 
+  366  nano configuration.txt 
+  367  python simulation.py configuration.txt 
+  368  nano configuration.txt 
+  369  python simulation.py configuration.txt 
+  370  python two_state_filter.py RK_forcing/trajectories.pkl 
+  371  python simulation.py configuration.txt min
+  372  python two_state_filter.py RK_forcing/trajectories.pkl 
+  373  python two_state_filter.py RK_forcing/trajectories.pkl min
+  374  python simulation.py configuration.txt min
+  375  python simulation.py configuration.tx
+  376  python simulation.py configuration.txt
+  377  python two_state_filter.py ./RK_forcing/trajectories.pkl min
+  378  python compute_autocorrelation.py ./RK_forcing/binarized_min.pkl 
+  379  ls 
+  380  nano fft.py
+  381  python fft.py ./RK_forcing/autocorrelation_min.pkl 
+  382  nano fft.py
+  383  nano fft.py 
+  384  python fft.py ./RK_forcing/autocorrelation_min.pkl 
+  385  nano 
+  386  python simulation.py configuration.txt 
+  387  python two_state_filter.py ./RK_forcing/trajectories.pkl 
+  388  python two_state_filter.py ./RK_forcing/trajectories.pkl min
+  389  python compute_autocorrelation.py ./RK_forcing/binarized_min.pkl 
+  390  cd ISACCO/
+  391  cd Stoch_Res/
+  392  ls 
+  393  top
+  394  cd ISACCO/
+  395  cd Stoch_Res/
+  396  nano configuration.txt 
+  397  python simulation.py configuration.txt 
+  398  cd ISACCO/
+  399  cd Stoch_Res/
+  400  ls
+  401  nano psd.py
+  402  top
+  403  cd ISACCO/
+  404  cd Stoch_Res/
+  405  ls 
+  406  python simulation.py 
+  407  python simulation.py configuration.txt 
+  408  cd ISACCO/
+  409  cd Stoch_Res/
+  410  cd RK_forcing/
+  411  ls
+  412  cd ..
+  413  python two_state_filter.py ./RK_forcing/trajectories.pkl min
+  414  cd ISACCO/
+  415  cd Stoch_Res/
+  416  python find_residence_time.py ./RK_forcing/binarized_min.pkl 
+  417  python plot_res_time.py 
+  418  cd RK_forcing/
+  419  ls 
+  420  cp res_times.png ../res_nuovi.png
+  421  cd ..
+  422  git add res_nuovi.png 
+  423  git commit -m 'nuova simulazione'
+  424  git push
+  425  python psd.py ./RK_forcing/binarized_min.pkl 
+  426  nano psd.py 
+  427  ls
+  428  cd RK_forcing/
+  429  ls 
+  430  cd ..
+  431  git add RK_forcing/
+  432  nano psd.py 
+  433  nano psd1.py
+  434  rm psd.py 
+  435  cp psd1.py psd.py
+  436  python psd.py ./RK_forcing/binarized_min.pkl 
+  437  nano psd.py 
+  438  ls
+  439  git add PSD_means.png 
+  440  git commit -m 'psd_means plot'
+  441  git push
+  442  nano psd.py 
+  443  python psd.py ./RK_forcing/binarized_min.pkl 
+  444  git add PSD_means.png 
+  445  git commit -m 'log scale'
+  446  git push
+  447  nano PSD_means.png 
+  448  nan psd.py 
+  449  nano psd.py 
+  450  python psd.py ./RK_forcing/binarized_min.pkl 
+  451  nano psd.py 
+  452  python psd.py ./RK_forcing/binarized_min.pkl 
+  453  git add PSD_means.png 
+  454  git commit -m 'nuova immagine'
+  455  git push
+  456  cd ISACCO/
+  457  cd Stoch_Res/
+  458  nano psd.py 
+  459  rm psd1.py 
+  460  python psd.py ./RK_forcing/binarized_min.pkl 
+  461  cd ISACCO/
+  462  cd Stoch_Res/
+  463  nano configuration.txt 
+  464  cd ..
+  465  quir
+  466  quit
+  467  exit
+  468  cd ISACCO/
+  469  cd Stoch_Res/
+  470  git add PSD_means.png 
+  471  git commit -m 'nuova immagine'
+  472  git push
+  473  nano psd.py 
+  474  python psd.py 
+  475  python psd.py ./RK_forcing/binarized_min.pkl 
+  476  git pull
+  477  nano configuration.txt 
+  478  python simulation.py configuration.txt 
+  479  python two_state_filter.py RK_forcing/trajectories.pkl min
+  480  python find_residence_time.py RK_forcing/binarized_min.pkl 
+  481  python plot_res_time.py 
+  482  cp RK_forcing/res_times.png res_times_mio.png
+  483  git add res_times_mio.png 
+  484  git commit -m 'RK mio'
+  485  git push
+  486  nano configuration.txt 
+  487  python simulation.py configuration.txt 
+  488  cd RK_forcing/
+  489  ls
+  490  cd ..
+  491  python two_state_filter.py ./RK_forcing/trajectories.pkl min
+  492  python find_residence_time.py ./RK_forcing/binarized_min.pkl 
+  493  git status
+  494  git add configuration.txt 
+  495  git add psd.py 
+  496  git add RK_forcing/
+  497  git status 
+  498  cd RK_forcing/
+  499  ls 
+  500  cd ..
+  501  git status
+  502  git add plot_res_time.py 
+  503  git commit -m 'modifiche'
+  504  git status
+  505  git push
+  506  top
+  507  cd ISACCO/
+  508  cd Stoch_Res/
+  509  ls 
+  510  cd ISACCO/
+  511  git clone git@github.com:Isi2000/SANDPILE.git
+  512  cd SANDPILE/
+  513  ls
+  514  code .
+  515  rm -rf 3d/
+  516  ls
+  517  git add sandpile_model.ipynb 
+  518  git commit -m "simulations and plots for power law, still some work to do"
+  519  git config --global user.email "isaccofaglioni2000@gmail.com"
+  520  git commit -m "simulations and plots for power law, still some work to do"
+  521  git push -u origin main
+  522  nvidia-smi
+  523  pip show torch
+  524  clear
+  525  python3
+  526  clear
+  527  nvidia-smi -l 1
+  528  clear
+  529  lspci | grep -i nvidia
+  530  nvcc --version
+  531  nvidia-smi
+  532  clear
+  533  pip install torch==1.10.0+cu115 torchvision==0.11.1+cu115 torchaudio==0.10.0+cu115 -f https://download.pytorch.org/whl/cu115/torch_stable.html
+  534  nvidia-smi
+  535  nvcc --version
+  536  pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu115
+  537  clear
+  538  nvcc --version
+  539  nvidia-smi
+  540  clear
+  541  python3
+  542  clear
+  543  exit 1
+  544  cd I
+  545  cd ISACCO/
+  546  ;s
+  547  ls
+  548  cd S
+  549  cd SANDPILE/
+  550  ls
+  551  nvidia-smi
+  552  cd ..
+  553  ls
+  554  cd //
+  555  cd
+  556  cd Scaricati/
+  557  python isacco.py 
+  558  emacs isacco.py 
+  559  nano isacco.py 
+  560  code isacco.py 
+  561  python isacco.py 
+  562  cd
+  563  clear
+  564  cd Sc
+  565  cd SA
+  566  cd ISACCO/
+  567  ls
+  568  cd SANDPILE/
+  569  ls
+  570  code sandpile_model.ipynb 
+  571  df -h ISACCO
+  572  df -h
+  573  git add sandpile_model.ipynb 
+  574  git commit -m "working code"
+  575  git push -u origin main
+  576  cd
+  577  ls -al ~/.ssh
+  578  ssh-keygen -t ed25519 -C "isaccofaglioni2000@gmail.com"
+  579  eval "$(ssh-agent -s)"
+  580  ssh-add ~/.ssh/id_ed25519
+  581  ssh-add ~/.ssh/id_rsa
+  582  cat ~/.ssh/id_ed25519.pub
+  583  cd ISACCO/
+  584  ls
+  585  cd S
+  586  cd SANDPILE/
+  587  git push -u origin main
+  588  ssh -T git@github.com
+  589  ssh-add -l
+  590  ssh-add ~/.ssh/id_ed25519
+  591  cat ~/.ssh/id_ed25519.pub
+  592  git push -u origin main
+  593  cd ISACCO/
+  594  ;as
+  595  cd SANDPILE/
+  596  code.
+  597  code .
+  598  ls
+  599  git pull origin
+  600  ls
+  601  code sandpile_model.ipynb 
+  602  top
+  603  cd ISACCO/
+  604  cd SANDPILE/
+  605  ls
+  606  code sandpile_model.ipynb 
+  607  git add sandpile_model.ipynb 
+  608  git commit -m "fixed mistake in subtraction"
+  609  git push
+  610  history >> isacco.txt
